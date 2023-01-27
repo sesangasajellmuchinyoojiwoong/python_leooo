@@ -16,7 +16,7 @@ for 변수 in range (시작<이상>,끝<미만>):
     실행할 코드
 
 3번 변수 in range(시작,끝,증강):
-    실행할 코드    
+    실행할 코드
 
 
     <중요한 부분>
@@ -28,7 +28,7 @@ for i in range(0,5):
     print("파이썬")
 
 for i in range(0,5,1):
-    print("파이썬")    
+    print("파이썬")
 '''
 # 오늘날씨 = "비"
 # if 오늘날씨 == "비":
@@ -44,3 +44,38 @@ for i in range(0,5,1):
 
 # 3번 예시for i in range(2, 11, 2):
 #    print(i)
+
+'''
+q1
+for i in range(7):
+    print("내일은 토요일 yyyeessssssss!!!!")
+'''
+'''
+ q2
+for i in range(3, 10, 3):
+    print(i)
+'''
+'''
+q3
+sum = 0
+for i in range(1, 21):
+    if i % 4 != 0:
+        sum += i
+print(sum)
+'''
+'''
+# q4
+for i in range(60, 101, 12):
+    print(i)
+
+'''
+'''
+# q5
+sum = 0
+sam = 0
+for i in range(1, 101, 2):
+    sum += i
+for i in range(2, 101, 2):
+    sam += i
+print(sam-sum)
+'''
