@@ -27,6 +27,44 @@
 거꾸로 정렬할 때 reverse 메소드 사용
 
 q.sort()아레에 q.reverse()를 쓰면 내림차순이 된다
+
+sort는 적은 것 부터 큰 것까지 나오게 한다
+
+<특징6>
+index
+값으로 자리를 찾을때 사용하는 메소드
+
+<특징7>
+indexing
+자리로 값을 찾는 문법
+
+<문법>
+indexing 할때 댜괄호와 숫자를 사용
+
+<특징8>
+count
+값이 몇개있는지 알아보는 메소드
+
+<특징9>
+내가 원하는 위치에 값을 끼워놓을 때
+insert 메소드 사용
+
+<특징10>
+내가 원하는 값을 지울 때
+remove 메소드 사용
+
+<특징11>
+리스트와 리스트를 결합할 때 extend 메소드 사용
+
+<특징12>
+리스트와 리스트르 결합할 때
+(+)연산자 사용
+
+<특징13>
+리스트에 길이를 구하는 함수는 len함수 사용
+
+<특징14>
+for와리스트를 결합한 문법
 """
 # a = [1, 2, 3]
 # print(a)
@@ -80,7 +118,60 @@ q.sort()아레에 q.reverse()를 쓰면 내림차순이 된다
 # q.reverse()
 # print(q)
 
-a = ["banana", "cherry", "apple"]
-a.sort()
-a.reverse()
-print(a)
+# a = ["banana", "cherry", "apple"]
+# a.sort()
+# a.reverse()
+# print(a)
+
+# a = [10, 20, 30]
+# print(a[-1]*a[-2])
+
+# a = [10, 20, 30]
+# print(a[-2] % a[1])
+# c = [1, 2, 3, 4, 1]
+# print(c.count(1))
+
+# c = [1, 2, 3, 4, 1]
+# print(c.count(5))
+
+# e = [1, 2, 3]
+# e.insert(1, 100)
+# print(e)
+
+# i = [1, 2, 3]
+# i.insert(1, 100)
+# i.insert(2, 200)
+# print(i)
+
+# f = [100, 200, 10, 300]
+# f.remove(10)
+# f.remove(200)
+# print(f)
+
+# g = [1, 2]
+# h = [3, 4, 5]
+# g.extend(g)
+# print(g)
+
+# h.extend(h)
+# print(h)
+
+# i = [100, 200]
+# j = [300, 400, 500]
+# print(i+j)
+# print(j+i)
+
+# k = [10, 20, 30]
+# print(len(k))
+# k.append(40)
+# print(len(k))
+
+# k.clear()
+# print(len(k))
+
+fruits = ["cherry", "apple", "banana"]
+for i in range(len(fruits)):
+    print(fruits[i])
+
+for fruits in fruits:
+    print(fruits)
